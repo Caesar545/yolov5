@@ -1,3 +1,7 @@
+# Security - Adversarial - Assessment
+This repository is a component of the Security Adversarial Assessment organization.  It is designed to be utilized within projects focusing on target detection neural networks, specifically located at the `detector/neural_networks` path within the organization's repository structure.
+
+---
 <div align="center">
   <p>
     <a href="http://www.ultralytics.com/blog/ultralytics-yolov8-turns-one-a-year-of-breakthroughs-and-innovations" target="_blank">
