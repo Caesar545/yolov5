@@ -35,9 +35,9 @@ except (ImportError, AssertionError):
 
 from ultralytics.utils.plotting import Annotator, colors, save_one_box
 
-from detector.neural_networks.yolov5.utils import TryExcept
-from detector.neural_networks.yolov5.utils.dataloaders import exif_transpose, letterbox
-from detector.neural_networks.yolov5.utils.general import (
+from detectors.intelligentAlgorithm.yolov5.utils import TryExcept
+from detectors.intelligentAlgorithm.yolov5.utils.dataloaders import exif_transpose, letterbox
+from detectors.intelligentAlgorithm.yolov5.utils.general import (
     LOGGER,
     ROOT,
     Profile,
@@ -54,7 +54,7 @@ from detector.neural_networks.yolov5.utils.general import (
     xyxy2xywh,
     yaml_load,
 )
-from detector.neural_networks.yolov5.utils.torch_utils import copy_attr, smart_inference_mode
+from detectors.intelligentAlgorithm.yolov5.utils.torch_utils import copy_attr, smart_inference_mode
 
 
 def autopad(k, p=None, d=1):
